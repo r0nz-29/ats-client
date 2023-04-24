@@ -1,0 +1,139 @@
+.maint{
+    text-align: center;
+    h2{
+        position: relative;
+        color:#fff ;
+       
+        font-size: 53px;
+margin: 0;
+font-family: 'Coolvetica';
+font-weight: 400;
+padding-top: 20px;  
+    }
+}
+
+
+
+
+.About-cont{
+
+ 
+    position: absolute;
+    color:#fff ;
+   padding-left: 80px;
+    font-size: 33px;
+margin: 0;
+font-family: 'Coolvetica';
+font-weight: 400;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+      padding-top: 2.5rem;
+      padding-bottom: 1rem;
+
+      .aboutr{
+        display: grid;
+        grid-template-columns:repeat(2,1fr) ;
+        grid-gap: 2rem;
+       
+      
+      }
+
+
+      .aboutl{
+        padding-right: 5rem;
+        p{
+            color:#fff ;
+            line-height: 2rem;
+            font-size: 19px;
+            padding-top: -50px;
+            letter-spacing: 0.7px;
+        } 
+
+        h4{
+           font-size: 3rem;
+           letter-spacing: 2px; 
+        }
+
+      }
+}
+
+.timeline{
+
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 1rem;
+
+  padding-left: 8rem;
+  .timeline-item{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 5rem;
+    border-left: 1px solid var(#fff);
+    padding-bottom: 20px;
+  
+    .tl-con{
+      
+      position: absolute;
+      left: -27px;
+      top: 0;
+      background-color: #00a859;
+      // box-shadow: 0 0 7px 0px #fff;
+      width: 50px;
+      height: 52px;
+      border-radius:50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      i{
+        font-size: 1.3rem;
+      }
+    }
+    .tl-duration{
+      padding: .2rem .2rem;
+      background-color: #00a859;
+      box-shadow: 0 0 7px 0px #fff;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      display: inline-block;
+      font-size: 1.85rem;
+      font-weight: 250;
+      width: 450px;
+text-align: center;
+span{
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+    }
+
+    h5{
+font-size: 1.5rem;
+
+// padding: 1rem 0;
+span{
+  color: #fff;
+  font-size: 1.7rem;
+}
+    }
+    p{
+     letter-spacing: 0.7px;
+font-size: 1rem;
+    }
+  }
+// .timeline-title{
+//   display: grid;
+//   font-size: 4rem;
+  
+// }
+img{
+  width: 32px;
+  height: 32px;
+}
+.Wk{
+  width: 30px;
+  height: 25px;
+}
+
+}
+
